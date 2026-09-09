@@ -43,7 +43,7 @@
                   <a href="mailto:shaoan@lightrobo.com">Work Email</a> &nbsp;/&nbsp;
                   <!-- <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp; -->
                   <a href="https://scholar.google.com/citations?user=m3FCQrkAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/wsakobe/">GitHub</a>
+                  <a href="https://github.com/shaoanwang/">GitHub</a>
                 </p>
               </td>
               <td class="photo-cell" style="padding:2.5%;width:40%;max-width:40%">
@@ -57,6 +57,7 @@
                 <td id="news" style="padding:20px;width:100%;vertical-align:middle">
                   <h2>News</h2>
                   <ul class="news-list">
+                    <li><span class="news-date">2026.09</span>We released and open-sourced <a href="https://github.com/lightorigins/LightNav-0">LightNav-0</a>, our generalist embodied navigation model!</li>
                     <li><span class="news-date">2026.07</span>Joined <a href="https://lightorigins.com">Light Origins</a> as an Algorithm Engineer!</li>
                     <li><span class="news-date">2026.07</span>Received my Ph.D. from Peking University!</li>
                     <li><span class="news-date">2026.02</span>NavFoM has been accepted to ICLR 2026!</li>
@@ -77,6 +78,43 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+            <tr class="pub-row" onmouseout="lightnav0_stop()" onmouseover="lightnav0_start()" >
+              <td class="pub-thumb" style="padding:20px;width:30%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='lightnav0_image'>
+                  <img src="images/lightnav-0/lightnav-0.gif" alt="LightNav-0 animation" width="230" height="107">
+                  </div>
+                  <img src='images/lightnav-0/lightnav-0.png' alt="LightNav-0" width="230" height="107">
+                </div>
+                <script type="text/javascript">
+                  function lightnav0_start() {
+                    document.getElementById('lightnav0_image').style.opacity = "1";
+                  }
+                  function lightnav0_stop() {
+                    document.getElementById('lightnav0_image').style.opacity = "0";
+                  }
+                  lightnav0_stop()
+                </script>
+              </td>
+              <td class="pub-body" style="padding:20px;width:70%;vertical-align:middle">
+                <a href="https://www.lightorigins.com/en/blog/lightnav-0">
+                <span class="papertitle">LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation</span>
+                </a>
+                <br>
+                <strong>Shaoan Wang</strong>, Aocheng Luo, Fei Huang, Jingyi Xu, Xiaoyang Wang, Yueyu Wang, Qianli Ma, Fan Yang, Ran Mei, Jia Wei, Jiangpeng Hu, Xuhao Liu, Hongming Chen, Yuanbin Shao, Yiyang Lin, Ziliang Li, Liang Pan, Xinhang Liu, Yuntao Ma, Tingxiang Fan
+                <br>
+                <em class="venue"><b>Technical Report</b></em>
+                <br>
+                <a href="https://arxiv.org/abs/2608.30935">[PDF]</a>
+                <a href="https://www.lightorigins.com/en/blog/lightnav-0">[Project page]</a>
+                <a href="https://github.com/lightorigins/LightNav-0">[Code]</a>
+                <p></p>
+                <p>
+                  LightNav-0 elicits the spatial intelligence of a pretrained vision-language model for generalist embodied navigation, following language instructions, searching for objects, and tracking visual targets with a single model. A unified token interface with dual-channel pointing and a residual vector-quantized action tokenizer lets it transfer zero-shot across embodiments and scenes without task-specific prediction heads.
+                </p>
+              </td>
+            </tr>
+
             <tr class="pub-row" onmouseout="vlingnav_stop()" onmouseover="vlingnav_start()" >
               <td class="pub-thumb" style="padding:20px;width:30%;vertical-align:middle">
                 <div class="one">
@@ -96,7 +134,7 @@
                 </script>
               </td>
               <td class="pub-body" style="padding:20px;width:70%;vertical-align:middle">
-                <a href="https://wsakobe.github.io/VLingNav-web/">
+                <a href="https://shaoanwang.github.io/VLingNav-web/">
                 <span class="papertitle">VLingNav: Embodied Navigation with Adaptive Reasoning and Visual-Assisted Linguistic Memory</span>
                 </a>
                 <br>
@@ -105,7 +143,7 @@
                 <em class="venue"><b>arXiv Preprint</b></em>
                 <br>
                 <a href="https://arxiv.org/abs/2601.08665">[PDF]</a>
-                <a href="https://wsakobe.github.io/VLingNav-web/">[Project page]</a>
+                <a href="https://shaoanwang.github.io/VLingNav-web/">[Project page]</a>
                 <p></p>
                 <p>
                   VLingNav is a VLA model for embodied navigation that combines an adaptive chain-of-thought mechanism (AdaCoT) to trigger explicit reasoning only when needed with a visual-assisted linguistic memory module (VLingMem) to build persistent cross-modal semantic memory for long-horizon navigation.
@@ -214,7 +252,7 @@
                 <br>
                 <a href="https://arxiv.org/pdf/2505.23189">[PDF]</a>
                 <a href="https://pku-epic.github.io/TrackVLA-web/">[Project page]</a>
-                <a href="https://github.com/wsakobe/TrackVLA">[Code &amp; Benchmark]</a>
+                <a href="https://github.com/shaoanwang/TrackVLA">[Code &amp; Benchmark]</a>
                 <p></p>
                 <p>
                   We present TrackVLA, a vision-language-action model capable of simultaneous object recognition and visual tracking, enabling zero-shot deployment in real-world scenarios.
@@ -272,7 +310,7 @@
                 <br>
                 <a href="data/2024ral.pdf">[PDF]</a>
                 <a href="data/ral2024.bib">[BibTeX]</a>
-                <a href="https://github.com/wsakobe/EF-Calib">[Code]</a>
+                <a href="https://github.com/shaoanwang/EF-Calib">[Code]</a>
                 <p></p>
                 <p>A novel spatiotemporal calibration toolkit for event-based and frame-based camera system.</p>
               </td>
@@ -310,7 +348,7 @@
                 <br>
                 <a href="data/2024tvcg.pdf">[PDF]</a>
                 <a href="data/tvcg2024.bib">[BibTeX]</a>
-                <a href="https://github.com/wsakobe/CylinderTag">[Code]</a>
+                <a href="https://github.com/shaoanwang/CylinderTag">[Code]</a>
                 <p></p>
                 <p>A visual marker based on projective invariance called CylinderTag is developed, which provides a new solution for high-precision position estimation of curved objects.</p>
               </td>
@@ -329,7 +367,7 @@
                 <br>
                 <a href="data/2022tim.pdf">[PDF]</a>
                 <a href="data/tim2022.bib">[BibTeX]</a>
-                <a href="https://github.com/wsakobe/Marker_curved-surface">[Code]</a>
+                <a href="https://github.com/shaoanwang/Marker_curved-surface">[Code]</a>
                 <p></p>
                 <p>A subpixel corner detector for curved checkerboard-like markers based on quadratic form.</p>
               </td>
